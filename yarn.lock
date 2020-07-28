@@ -3939,7 +3939,7 @@ dotenv-expand@5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
-dotenv@8.2.0:
+dotenv@8.2.0, dotenv@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
@@ -11415,3 +11415,10 @@ youtube-api-search@^0.0.5:
   integrity sha1-ndaG3nYv8lBKkCiMV/zlo3BkMAI=
   dependencies:
     axios "^0.7.0"
+
+youtube-api-v3-search@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/youtube-api-v3-search/-/youtube-api-v3-search-1.2.1.tgz#b7b2840d705026812c292ee40df4e9e6b558f662"
+  integrity sha512-CsH8oqX6wZ1b82Xdd4hddx3fSHEIaU85gdYGfQXNbaHOXq5GbaHs7Pro0mEnDt5WzQ5r0eI10gqGeM2mJolJDg==
+  dependencies:
+    browser-resolve "^1.11.3"
